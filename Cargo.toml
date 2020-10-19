@@ -9,7 +9,7 @@ edition = "2018"
 [dependencies]
 
 
-[workspace]
-members = [
-    "sub-crate"
-]
+# [workspace]
+# members = [
+#     "sub-crate"
+# ]

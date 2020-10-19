@@ -4,7 +4,3 @@
 name = "rustfmt-issue-4477"
 version = "0.1.0"
 
-[[package]]
-name = "sub-crate"
-version = "0.1.0"
-
