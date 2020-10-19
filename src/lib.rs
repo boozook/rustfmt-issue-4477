@@ -1,3 +1,3 @@
-#[path = "./module_foo.rs"]
+#[path = "module_foo.rs"]
 mod module_foo;
 pub use module_foo::FOO;
