@@ -49,6 +49,3 @@ jobs:
 
       - name: Rustfmt Check
         run: cargo fmt -- --check
-
-      - name: Build
-        run: cargo build --all
