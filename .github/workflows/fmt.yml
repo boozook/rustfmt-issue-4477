@@ -43,6 +43,12 @@ jobs:
           override: true
           components: rustfmt
 
+      - name: print versions
+        run: |
+          rustc -V
+          rustfmt -V
+          cargo fmt -- -V
+
       - name: fix permissions
         if: matrix.os == 'ubuntu-latest'
         run: sudo chown -R $(whoami):$(id -ng) ~/.cargo/
